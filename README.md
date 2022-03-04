@@ -24,7 +24,7 @@
 
 `TODO://` Add the URL to your animated app walkthough `gif` in the image tag below, `YOUR_GIF_URL_HERE`. Make sure the gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after after adding gif)
 
-<img src="YOUR_GIF_URL_HERE" width=250><br>
+<img src="https://github.com/cc0441/Flixster_Kotlin/blob/a58c4315f07399c6ae90ad6ddd5c1eaea04fb520/walkthrough2.gif" width=250><br>
 
 ### Notes
 
