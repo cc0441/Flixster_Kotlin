@@ -47,7 +47,14 @@ class MovieAdapter(private val context: Context, private val movies: List<Movie>
             tvTitle.text = movie.title
             tvOverview.text = movie.overview
             // Populate imageview
-            Glide.with(context).load(movie.posterImageUrl).into(ivPoster)
+            //Glide.with(context).load(movie.posterImageUrl).into(ivPoster)
+            val radius = 30; // corner radius, higher value = more rounded
+            val margin = 10; // crop margin, set to 0 for corners with no crop
+            Glide.with(context)
+                .load(movie.posterImageUrl)
+                //.centerCrop() // scale image to fill the entire ImageView
+                //.transform(RoundedCornersTransformation(radius, margin))
+                .into(ivPoster)
         }
 
         override fun onClick(v: View?) {

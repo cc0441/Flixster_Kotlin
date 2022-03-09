@@ -7,7 +7,8 @@
 
     <ImageView
         android:id="@+id/ivPoster"
-        android:layout_width="120dp"
+        android:transitionName="profile"
+        android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
